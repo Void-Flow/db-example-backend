@@ -1,0 +1,21 @@
+//Old logic
+    /*users : User[] = [];
+
+    addUser(name: string, surname: string, password: string){
+        const id : number = Math.random();
+        this.users.push(new User(id, name, surname, password));
+    }
+
+    getUsers(): User[] {
+        return [...this.users];
+    }
+
+    patchUserById(user: User): boolean{
+        for(var i = 0; i < this.users.length; i++){
+            if(this.users[i].id == user.id){
+                this.users[i] = user;
+                return true;
+            }
+        }
+        return false;
+    }*/
